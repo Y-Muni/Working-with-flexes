@@ -1,5 +1,5 @@
 .flexbox {
-    /* display: flex; */
+    display: inline-flex;
     background-color: darkslategray;
 }
 
