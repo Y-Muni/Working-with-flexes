@@ -1,6 +1,6 @@
 .flexbox {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: darkslategray;
 }
 
