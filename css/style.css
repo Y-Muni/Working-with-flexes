@@ -1,0 +1,10 @@
+.flexbox {
+    /* display: flex; */
+    background-color: darkslategray;
+}
+
+.flexbox > div {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: deeppink;
+}
