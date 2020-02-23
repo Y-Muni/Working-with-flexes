@@ -13,6 +13,10 @@
     background-color: deeppink;
 }
 
+.flexbox > div:nth-child(3) {
+    align-self: stretch;
+}
+
 .flexbox > div:nth-child(4) {
-    align-self: flex-start;
+    align-self: flex-end;
 }
