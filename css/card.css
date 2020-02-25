@@ -23,10 +23,6 @@ body {
    flex-basis: 250px;
 }
 
-.card_title {
-
-}
-
 .card_text {
     margin-bottom: 20px;
     flex-grow: 1;
