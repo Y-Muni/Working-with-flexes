@@ -42,8 +42,18 @@ body {
     background-color: brown;
     margin: 5px;
     padding: 5px;
+    order: 5;
 }
 
 .flex-inner:nth-child(4) {
     order: 0;
+}
+
+.flex-inner:nth-child(2) {
+    order: 10;
+}
+
+.flexorder {
+    display: flex;
+    flex-direction: row;
 }
