@@ -123,6 +123,8 @@ a[href^="sub"] {
 
 .line {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   float: left;
   overflow: hidden;
   margin: 0;
@@ -152,9 +154,11 @@ a[href^="sub"] {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 1400px;
-  height: 550px;
-  display: inline-block;
+  flex-basis: 550px;
 }
 
 .block {
