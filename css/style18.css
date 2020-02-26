@@ -223,7 +223,6 @@ a[href^="sub"] {
 }
 
 .skype {
-  text-align: left;
   padding: 13px 20px;
   margin: 0px;
   font-size: 20px;
@@ -315,12 +314,11 @@ a[href^="sub"] {
   padding: 30px 30px;
   font-size: 18px;
   outline: none;
-  border-bottom: 1px solid transparent;
   vertical-align: top;
 }
 
 .card_link:hover {
-  border-bottom: 1px solid;
+  text-decoration: underline;
   color: rgb(70, 68, 68);
 }
 
