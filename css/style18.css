@@ -31,6 +31,7 @@ li:hover .submenu {
   padding: 7px 10px;
 }
 
+/* У меня так и не сработал цвет, не понимаю в чем причина?((( */
 .submenu > a:hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
@@ -291,7 +292,7 @@ a[href^="sub"] {
 
 .card_text {
   flex-grow: 1;
-  padding: 30px 30px;
+  padding: 20px 30px;
   font-size: 18px;
   color: rgb(70, 68, 68);
 }
